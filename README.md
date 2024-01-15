@@ -21,7 +21,7 @@ SimplicityPassGen operates offline, providing users with the convenience of gene
 ## Copy to Clipboard 📋:
 The project includes a convenient "Copy to Clipboard" feature, allowing users to easily transfer generated passwords to the desired login or registration forms with a simple click.
 
-SimplicityPassGen is the perfect tool for individuals who prefer a no-frills approach to password generation. By combining simplicity with functionality, this project offers a quick and efficient solution for creating strong and secure passwords, making it an essential asset in the everyday quest for online security.
+SimplicityPassGen is the perfect tool for individuals who prefer a no-frills approach to password generation. By combining simplicity with functionality, this project offers a quick and efficient solution for creating strong and secure passwords, making it an essential asset in the everyday quest for online security. 🌐🔒
 
 ## Setting up HTML/CSS/JS Project Locally from GitHub
 
