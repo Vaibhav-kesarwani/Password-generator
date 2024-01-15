@@ -4,45 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Password generator</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div class="generator">
       <div class="password">
-        <input type="text" value="test" />
+        <input type="text"/>
         <button>copy</button>
       </div>
       <div class="range">
-        <input type="range" min="4" max="24" value="8" />
+        <input type="range" min="4" max="25" value="8" />
         <span>8</span>
       </div>
       <div class="options">
         <div class="option">
           <label>
-            <input type="checkbox" />
+            <input type="checkbox" id="lowerCase" checked/> 
             <span>a-z</span>
           </label>
         </div>
         <div class="option">
           <label>
-            <input type="checkbox" />
+            <input type="checkbox" id="uperCase" />
             <span>A-Z</span>
           </label>
         </div>
         <div class="option">
           <label>
-            <input type="checkbox" />
+            <input type="checkbox" id="number" />
             <span>0-9</span>
           </label>
         </div>
         <div class="option">
           <label>
-            <input type="checkbox" />
+            <input type="checkbox" id="spcialChar" />
             <span>!@#$%^&*</span>
           </label>
         </div>
       </div>
       <button class="generate">generate</button>
     </div>
+
+    <script src="./app.js"></script>
   </body>
 </html>
